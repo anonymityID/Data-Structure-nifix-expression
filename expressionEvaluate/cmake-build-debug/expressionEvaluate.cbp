@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="expressionEvaluate"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/ACODE/expressionEvaluate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionEvaluate">
+				<Option output="D:/ACODE/expressionEvaluate/cmake-build-debug/expressionEvaluate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ACODE/expressionEvaluate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0/backward"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressionEvaluate"/>
+					<CompileFile command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionEvaluate/fast">
+				<Option output="D:/ACODE/expressionEvaluate/cmake-build-debug/expressionEvaluate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ACODE/expressionEvaluate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include/c++/7.1.0/backward"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../include"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/downloads/clion/msys/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressionEvaluate/fast"/>
+					<CompileFile command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/ACODE/expressionEvaluate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/ACODE/expressionEvaluate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/downloads/clion/msys/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/ACODE/expressionEvaluate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/ACODE/expressionEvaluate/Caculator.cpp">
+			<Option target="expressionEvaluate"/>
+		</Unit>
+		<Unit filename="D:/ACODE/expressionEvaluate/Caculator.h">
+			<Option target="expressionEvaluate"/>
+		</Unit>
+		<Unit filename="D:/ACODE/expressionEvaluate/Stack.h">
+			<Option target="expressionEvaluate"/>
+		</Unit>
+		<Unit filename="D:/ACODE/expressionEvaluate/main.cpp">
+			<Option target="expressionEvaluate"/>
+		</Unit>
+		<Unit filename="D:/ACODE/expressionEvaluate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

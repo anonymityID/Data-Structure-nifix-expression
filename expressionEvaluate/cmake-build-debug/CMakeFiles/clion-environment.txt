@@ -1,0 +1,4 @@
+ToolSet: w64 5.0@D:\downloads\clion\msys\msys64\mingw64
+Options: 
+
+Options:

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ACODE/expressionEvaluate/Caculator.cpp
+Caculator.h
+D:/ACODE/expressionEvaluate/Caculator.h
+iostream
+-
+cmath
+-
+
+D:/ACODE/expressionEvaluate/Caculator.h
+Stack.h
+D:/ACODE/expressionEvaluate/Stack.h
+
+D:/ACODE/expressionEvaluate/Stack.h
+iostream
+-
+iostream
+-
+

@@ -1,0 +1,3 @@
+"D:\downloads\clion\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\expressionEvaluate.dir/objects.a
+D:\downloads\clion\msys\msys64\mingw64\bin\ar.exe cr CMakeFiles\expressionEvaluate.dir/objects.a @CMakeFiles\expressionEvaluate.dir\objects1.rsp
+D:\downloads\clion\msys\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\expressionEvaluate.dir/objects.a -Wl,--no-whole-archive  -o expressionEvaluate.exe -Wl,--out-implib,libexpressionEvaluate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\expressionEvaluate.dir\linklibs.rsp
